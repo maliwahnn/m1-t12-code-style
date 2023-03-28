@@ -16,9 +16,9 @@ public class CalculateDeposit {
     }
 
     double calculateSimplePercentFunction(double doubleAmount, double double_year_rate,
-                                             int deposit_period) {
+                                             int deposit_period) {                          // Мне кажется, что здесь можно убрать нижнее подчеркивание)
 
-         return round(doubleAmount + doubleAmount * double_year_rate * deposit_period, 2);
+         return round(doubleAmount + doubleAmount * double_year_rate * deposit_period, 2);  // И здесь тоже))
     }
 
     double round(double value, int places) {
